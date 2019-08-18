@@ -16,4 +16,9 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - hello.py
+    - index.html
+    - index2.html
+    - appspec.yml
+    - scripts/install_dependencies
+    - scripts/start_server
+    - scripts/stop_server
