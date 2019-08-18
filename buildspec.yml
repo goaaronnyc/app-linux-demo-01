@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 10
+      python: 3.7
   pre_build:
     commands:
       - echo Logging in to Amazon ...
@@ -16,8 +16,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - index.html
-    - index2.html
-    - scripts/install_dependencies
-    - scripts/start_server
-    - scripts/stop_server
+    - hello.py
