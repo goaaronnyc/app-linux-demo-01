@@ -1,8 +1,9 @@
+version: 0.2
+
 phases:
   pre_build:
     commands:
       - echo Logging in to Amazon ...
-      - cd web
   build:
     commands:
       - echo Build started on `date`
@@ -13,3 +14,4 @@ phases:
 artifacts:
   files:
     - index.html
+    - index2.html
